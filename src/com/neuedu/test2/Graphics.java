@@ -5,16 +5,6 @@ public class Graphics {
     private int wight;
     private int heiht;
 
-    public int getRadius() {
-
-        return radius;
-    }
-
-    public void setRadius(int radius) {
-
-        this.radius = radius;
-    }
-
     public int getWight() {
         return wight;
     }
@@ -25,6 +15,20 @@ public class Graphics {
 
     public int getHeiht() {
         return heiht;
+    }
+
+    public void setHeiht(int heiht) {
+        this.heiht = heiht;
+    }
+
+    public int getRadius() {
+
+        return radius;
+    }
+
+    public void setRadius(int radius) {
+
+        this.radius = radius;
     }
 
 
