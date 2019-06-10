@@ -4,9 +4,9 @@ public class Test1 {
     public static void main(String[] args) {
 
 //主持人
-        Student x = new Boy();
-        Compere z = new Guil();
+        Student a = new Boy();
+        Compere c = new Guil();
         Class b = new Class();
-        b.wanhui(z, x);
+        b.wanhui(c, a);
     }
 }

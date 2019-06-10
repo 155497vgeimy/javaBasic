@@ -2,9 +2,9 @@ package com.neuedu.test4;
 
 public class text2 {
     public static void main(String[] args) {
-        AAA(new car(), "陆地行使", 20, 90.0);
-        AAA(new plan(), "空中行使", 60, 1000.0);
-        AAA(new ship(), "水上行使", 40, 300.0);
+        AAA(new car(), "陆地行使", 40, 100.0);
+        AAA(new plan(), "空中行使", 80, 500.0);
+        AAA(new ship(), "水上行使", 40, 400.0);
         SSS();
     }
 
