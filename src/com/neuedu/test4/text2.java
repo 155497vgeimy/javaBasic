@@ -1,6 +1,6 @@
 package com.neuedu.test4;
 
-public class text001 {
+public class text2 {
     public static void main(String[] args) {
         AAA(new car(), "陆地行使", 20, 90.0);
         AAA(new plan(), "空中行使", 60, 1000.0);
