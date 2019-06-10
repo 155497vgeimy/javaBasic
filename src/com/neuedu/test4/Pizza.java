@@ -1,12 +1,11 @@
 package com.neuedu.test4;
 
-public class Pizza { //披萨类-->父类
-    //属性私有
+public class Pizza {
+
     private int size;
     private int price;
     private String name;
 
-    //get set方法
     public int getSize() {
         return size;
     }
@@ -29,14 +28,13 @@ public class Pizza { //披萨类-->父类
     public Pizza() { //无参构造
         super();
     }
-    public Pizza(int size, int price, String name) { //有参构造
+    public Pizza(int size, int price, String name) {
         super();
         this.size = size;
         this.price = price;
         this.name = name;
     }
 
-    //show方法
     public String show(){
         return "这是制作披萨的方法!";
     }

@@ -1,10 +1,10 @@
 package com.neuedu.test4;
 
-public class BaconPizza extends Pizza { //培根披萨类-->子类
-    //属性私有
-    private int gramNum; //克数
+public class BaconPizza extends Pizza {
 
-    //get set方法
+    private int gramNum;
+
+
     public int getGramNum() {
         return gramNum;
     }
@@ -15,14 +15,14 @@ public class BaconPizza extends Pizza { //培根披萨类-->子类
     public BaconPizza() { //无参构造
         super();
     }
-    //有参构造
+
     public BaconPizza(int size, int price, String name, int gramNum) {
         super(size, price, name);
         this.gramNum = gramNum;
     }
 
-    //重写shou方法
-    public String show(){ //方法重写
+
+    public String show(){
         return "名称:"+super.getName()+"\n价格:"+super.getPrice()+"元"+"\n大小:"+super.getSize()+"寸"+"\n培根克数:"+gramNum;
     }
 
