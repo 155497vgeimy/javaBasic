@@ -12,15 +12,12 @@ public class StudentClass {
         list.add(new Student("Jim",30,80,"class05"));
         list.add(new Student("Steve",28,66,"class06"));
         list.add(new Student("Kevin",24,100,"class04"));
-
-
         int sum=0;
         for(int i=0;i<list.size();i++)
         {
             sum+=list.get(i).getAge();
         }
         System.out.println("所有学生的平均分是："+sum/list.size());
-
         int score4=0;
         int score5=0;
         int score6=0;
@@ -46,12 +43,13 @@ public class StudentClass {
                 num6++;
                 score6+=st.getScore();
             }
-
         }
         System.out.println("class04的平均分数是："+score4/num4);
         System.out.println("class05的平均分数是："+score5/num5);
         System.out.println("class06的平均分数是："+score6/num6);
-
-
     }
+
+
+
+
 }
