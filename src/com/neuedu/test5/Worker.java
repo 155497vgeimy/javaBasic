@@ -28,5 +28,21 @@ public class Worker {
         this.price = price;
     }
 
+    public Worker(String name, int age, int price) {
+        this.name = name;
+        this.age = age;
+        this.price = price;
+    }
+    public Worker(){
 
+    }
+
+    @Override
+    public String toString() {
+        return "Worker{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", price=" + price +
+                '}';
+    }
 }
