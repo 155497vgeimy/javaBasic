@@ -21,6 +21,10 @@ public class WuDng {
             System.out.println(entry.getKey()+ " "+ entry.getValue());
         }
 
+        map.put(5,"李晓红");
+        for(Map.Entry<Integer,String> entry:map.entrySet()){
+            System.out.println(entry.getKey()+ " "+ entry.getValue());
+        }
         map.put(2,"周林");
         for(Map.Entry<Integer,String> entry:map.entrySet()){
             System.out.println(entry.getKey()+ " "+ entry.getValue());
